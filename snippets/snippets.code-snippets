@@ -1,0 +1,62 @@
+{
+    "Pulsout Command Template": {
+        "prefix": "puls",
+        "body": ["PULSOUT pin value"],
+        "description": "adds simple PULSOUT template"
+    },
+    "Do Loop Template": {
+        "prefix": "do",
+        "body": [
+            "DO",
+            "",
+            "LOOP"
+        ],
+        "description": "adds simple do loop"
+    },
+    "For Next Template": {
+        "prefix": "for",
+        "body": [
+            "FOR",
+            "",
+            "NEXT"
+        ],
+        "description": "adds simple for next"
+    },
+    "Gosub Command Template": {
+        "prefix": "go",
+        "body": [
+            "GOSUB subroutine"
+        ],
+        "description": "adds GOSUB command"
+    },
+    "Subroutine Template": {
+        "prefix": "sub",
+        "body": [
+            "name:",
+            "",
+            "RETURN"
+        ],
+        "description": "adds subroutine template"
+    },
+    "Word Variable Template": {
+        "prefix": "word",
+        "body": [
+            "name VAR Word"
+        ],
+        "description": "Adds word variable"
+    },
+    "Byte Variable Template": {
+        "prefix": "byte",
+        "body": [
+            "name VAR Byte"
+        ],
+        "description": "Adds Byte Variable"
+    },
+    "END Template": {
+        "prefix": "end",
+        "body": [
+            "END"
+        ],
+        "description": "adds end keyword"
+    }
+}
